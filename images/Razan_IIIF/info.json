@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 36,
+    "height" : 54
+  }, {
+    "width" : 71,
+    "height" : 108
+  }, {
+    "width" : 141,
+    "height" : 215
+  }, {
+    "width" : 281,
+    "height" : 430
+  }, {
+    "width" : 561,
+    "height" : 860
+  }, {
+    "width" : 1121,
+    "height" : 1720
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1121,
+  "@id" : "https://RazanZEA.github.io/Exercise-1.20221213/images/Razan_IIIF",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1720
+}
