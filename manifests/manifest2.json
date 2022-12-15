@@ -1,0 +1,87 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://RazanZEA.github.io/Exercise-1.20221213/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Journal de Mickey",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is the first manifest I have ever created. It is a trial using the first and last page of the first edition of the French comic Le journal de Mikey",
+    "@language" : "fre"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Le Journal de Mickey",
+  "viewingHint" : "should display in two-up book reader mode",
+  "sequences" : [ {
+    "@id" : "http://7c3098d8-6897-4fef-a14f-ed442e7e86da",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://4b7647b8-1135-4a34-97d8-daa85353aec3",
+      "@type" : "sc:Canvas",
+      "label" : "page_1",
+      "height" : 1720,
+      "width" : 1121,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://71f73004-2b9c-4810-a532-509b5c77c295",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1186_20221213/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1186_20221213",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1720,
+          "width" : 1121
+        },
+        "on" : "http://4b7647b8-1135-4a34-97d8-daa85353aec3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cfaf8a7d-1eee-4ef1-9c65-cca5d4fa5129",
+      "@type" : "sc:Canvas",
+      "label" : "page_8",
+      "height" : 1720,
+      "width" : 1121,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c45ba274-9700-4c63-b357-3b108611a008",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img1187_202212/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img1187_202212",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1720,
+          "width" : 1121
+        },
+        "on" : "http://cfaf8a7d-1eee-4ef1-9c65-cca5d4fa5129"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "https://iiif.archivelab.org/iiif/img-1186_20221213/full/full/0/default.jpg",
+    "@type" : "sc:Range",
+    "label" : "Title Page",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "https://iiif.archivelab.org/iiif/img1187_202212/full/full/0/default.jpg",
+    "@type" : "sc:Range",
+    "label" : "Last page",
+    "canvases" : [ "$YOUR_CANVAS_ID" ]
+  } ]
+}
