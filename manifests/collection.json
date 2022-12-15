@@ -1,0 +1,13 @@
+{
+  "id" : "https://RazanZEA.github.io/Exercise-1.20221213/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in RazanZEA/Exercise-1.20221213 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://RazanZEA.github.io/Exercise-1.20221213/manifests/manifest2.json",
+    "label" : "Journal de Mickey"
+  } ]
+}
